@@ -1,0 +1,21 @@
+{
+  "name": "onetrust",
+  "version": "6.25.0",
+  "description": "A plugin that exposes OneTrust to Cordova",
+  "main": "index.js",
+  "scripts": {
+    "test": "cmptest"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "cmp",
+    "consent",
+    "onetrust"
+  ],
+  "author": "OneTrust LLC",
+  "license": "ISC",
+  "homepage": "https://onetrust.com"
+}
