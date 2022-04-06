@@ -34,7 +34,7 @@
             </feature>
         </config-file>
         <config-file parent="/manifest/application" target="AndroidManifest.xml">
-            <activity android:launchMode="singleTop" android:name="com.onetrust.cordova.CMPActivity" android:theme="@style/Theme.AppCompat.Dialog" android:exported="false"/>
+            <activity android:launchMode="singleTop" android:name="com.onetrust.cordova.CMPActivity" android:theme="@style/Theme.AppCompat.Dialog" android:exported="true"/>
         </config-file>
         <source-file src="src/android/OneTrust.java" target-dir="src/com/onetrust/cordova/" />
         <source-file src="src/android/CMPActivity.java" target-dir="src/com/onetrust/cordova" />
