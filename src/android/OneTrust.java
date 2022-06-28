@@ -126,9 +126,14 @@ public class OneTrust extends CordovaPlugin{
         final String IDENTIFIER = "identifier";
         final String JWT = "syncProfileAuth";
         final String UX_PARAMS_JSON = "androidUXParams";
+        final String API_VERSION = "setAPIVersion";
+        String countryCode;
+        String regionCode;
+        String apiVersion;
 
         OTSdkParams.SdkParamsBuilder sdkParamsBuilder = OTSdkParams.SdkParamsBuilder.newInstance();
 
+        /* Add UXParams object to paramsbuilder if it's present in the payload*/
         if(initParams.has(UX_PARAMS_JSON)){
             JSONObject uxParamsJSON = initParams.optJSONObject(UX_PARAMS_JSON);
             OTUXParams uxParams = OTUXParams.OTUXParamsBuilder.newInstance()
@@ -136,9 +141,6 @@ public class OneTrust extends CordovaPlugin{
                     .build();
             sdkParamsBuilder.setOTUXParams(uxParams);
         }
-
-        String countryCode;
-        String regionCode;
 
         if(initParams.has(COUNTRY_CODE)){
             countryCode = initParams.optString(COUNTRY_CODE);
@@ -150,6 +152,14 @@ public class OneTrust extends CordovaPlugin{
             sdkParamsBuilder.setOTRegionCode(regionCode);
         }
 
+        if(initParams.has(API_VERSION)){
+            apiVersion = initParams.optString(API_VERSION);
+            sdkParamsBuilder.setAPIVersion(apiVersion);
+        }
+
+        /*If sync params are present in the payload, add them to the object.
+        This function will fail gracefully if either the identifier or JWT are missing.
+        This also automatically turns on setSyncProfile and shouldCreateProfile. */
         if(initParams.has(SYNC_PARAMS)){
             JSONObject paramsObj = initParams.optJSONObject(SYNC_PARAMS);
             if(paramsObj.has(IDENTIFIER) && paramsObj.has(JWT)){
