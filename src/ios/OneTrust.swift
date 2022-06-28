@@ -68,6 +68,11 @@ import AppTrackingTransparency
             OTParams.setProfileSyncParams(profileSyncParams)
             OTParams.setShouldCreateProfile("true")
         }
+
+        //If setAPIVersion is defined, add it to the params object.
+        if let overrideVersion = params.value(forKey: "setAPIVersion") as? String{
+            OTParams.setSDKVersion(overrideVersion)
+        }
         
         return OTParams
     }
