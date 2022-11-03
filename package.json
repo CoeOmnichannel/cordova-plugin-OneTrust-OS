@@ -1,28 +1,28 @@
 {
-  "_from": "cordova-plugin-onetrust-cmp",
-  "_id": "cordova-plugin-onetrust-cmp@202209.2.0",
+  "_from": "cordova-plugin-onetrust-cmp@^202210.1.0",
+  "_id": "cordova-plugin-onetrust-cmp@202210.1.0",
   "_inBundle": false,
-  "_integrity": "sha512-Nb0jHC8TpzOgP2DrJYfyXCA3uyac3dLJla/mpbWvHyR6NO46mUN6x54ChkewyVA/nlsu+rmpWuaxqsdFPHcauQ==",
+  "_integrity": "sha512-Hwa4WAOawv51QUQqmgURNIJBnY5g+iQLecCadW+q/+Vt+7jCwMEwkhcbEEox04YNoUxHiyEoAsodsDEVvAB2nw==",
   "_location": "/cordova-plugin-onetrust-cmp",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "cordova-plugin-onetrust-cmp",
+    "raw": "cordova-plugin-onetrust-cmp@^202210.1.0",
     "name": "cordova-plugin-onetrust-cmp",
     "escapedName": "cordova-plugin-onetrust-cmp",
-    "rawSpec": "",
+    "rawSpec": "^202210.1.0",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^202210.1.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-onetrust-cmp/-/cordova-plugin-onetrust-cmp-202209.2.0.tgz",
-  "_shasum": "8f69d723cbcc068f8109e937d8c6540ceb7c1c03",
-  "_spec": "cordova-plugin-onetrust-cmp",
-  "_where": "D:\\Rodrigo\\Workspace\\babel\\GALP\\plugin cookie\\cordova-onetrust-plugin",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-onetrust-cmp/-/cordova-plugin-onetrust-cmp-202210.1.0.tgz",
+  "_shasum": "d7816bc86aa05883be59f66abb12aefbfeaa4e03",
+  "_spec": "cordova-plugin-onetrust-cmp@^202210.1.0",
+  "_where": "D:\\Rodrigo\\Workspace\\babel\\GALP\\plugin cookie\\OneTrustDemoApp",
   "author": {
     "name": "OneTrust LLC"
   },
@@ -51,5 +51,5 @@
   "main": "index.js",
   "name": "cordova-plugin-onetrust-cmp",
   "scripts": {},
-  "version": "202209.2.0"
+  "version": "202210.1.0"
 }
