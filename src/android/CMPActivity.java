@@ -8,6 +8,7 @@ import android.view.Window;
 
 import com.onetrust.otpublishers.headless.Public.OTEventListener;
 import com.onetrust.otpublishers.headless.Public.OTPublishersHeadlessSDK;
+import com.onetrust.otpublishers.headless.Public.OTUIDisplayReason.OTUIDisplayReason;
 
 
 public class CMPActivity extends AppCompatActivity {
@@ -50,7 +51,8 @@ public class CMPActivity extends AppCompatActivity {
         String emptyPayload = "{}";
         ot.addEventListener(new OTEventListener() {
             @Override
-            public void onShowBanner() {
+            public void onShowBanner(OTUIDisplayReason otuiDisplayReason) {
+
             }
 
             @Override
@@ -69,7 +71,7 @@ public class CMPActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onShowPreferenceCenter() {
+            public void onShowPreferenceCenter(OTUIDisplayReason otuiDisplayReason) {
 
             }
 
