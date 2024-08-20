@@ -1,35 +1,11 @@
 {
-  "_from": "cordova-plugin-onetrust-cmp",
-  "_id": "cordova-plugin-onetrust-cmp@6.36.0",
-  "_inBundle": false,
-  "_integrity": "sha512-zgj6qnYOw5WF4ri+H90OKH74YaEUFMm4eaXJ013DI1qSg5VwyS29d5Qhvag14D1Gss747Vk3bQBqU6cSsWFSEA==",
-  "_location": "/cordova-plugin-onetrust-cmp",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "cordova-plugin-onetrust-cmp",
-    "name": "cordova-plugin-onetrust-cmp",
-    "escapedName": "cordova-plugin-onetrust-cmp",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-onetrust-cmp/-/cordova-plugin-onetrust-cmp-6.36.0.tgz",
-  "_shasum": "7038a6d647521b55eceb81dd4cac1c59ca093501",
-  "_spec": "cordova-plugin-onetrust-cmp",
-  "_where": "D:\\Rodrigo\\Workspace\\babel\\GALP\\plugin cookie\\project-test\\OneTrustDemo",
-  "author": {
-    "name": "OneTrust LLC"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
+  "name": "cordova-plugin-onetrust-cmp",
+  "version": "202404.1.0",
   "description": "OneTrust is the leading Consent Management solution provider. This plugin exposes OneTrust's native CMP functionality to Cordova and Ionic environments.",
-  "files": [
+  "main": "index.js",
+  "scripts": {  
+  },
+  "files":[
     "src",
     "www",
     "CHANGELOG.md",
@@ -37,7 +13,6 @@
     "README-Ionic.md",
     "README.md"
   ],
-  "homepage": "https://onetrust.com",
   "keywords": [
     "cmp",
     "consent",
@@ -47,9 +22,7 @@
     "iab",
     "tcf"
   ],
+  "author": "OneTrust LLC",
   "license": "Apache-2.0",
-  "main": "index.js",
-  "name": "cordova-plugin-onetrust-cmp",
-  "scripts": {},
-  "version": "6.36.0"
+  "homepage": "https://onetrust.com"
 }
