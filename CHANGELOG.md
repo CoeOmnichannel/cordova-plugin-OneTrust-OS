@@ -1,3 +1,100 @@
+
+# 202404.1.0
+* Adds support for OneTrust 202404.1.0
+
+# 202403.2.0
+* Adds support for OneTrust 202403.2.0
+
+# 202403.1.3
+* Adds support for OneTrust 202403.1.3
+
+# 202402.1.0
+* Adds support for OneTrust 202402.1.0
+
+# 202401.2.2
+* Adds support for OneTrust 202401.2.2
+
+# 202401.2.0
+* Adds support for OneTrust 202401.2.0
+
+# 202401.1.0
+* Adds support for OneTrust 202401.1.0
+
+# 202312.1.0
+* Adds support for OneTrust 202312.1.0
+
+# 202311.1.3
+* Adds support for OneTrust 202311.1.3
+
+# 202311.1.0
+* Adds support for OneTrust 202311.1.0
+
+# 202310.2.7
+* Adds support for OneTrust 202310.2.7
+
+# 202310.2.3
+* Adds support for OneTrust 202310.2.3
+
+# 202310.2.0
+* Adds support for OneTrust 202310.2.0
+
+# 202310.1.5
+* Adds support for OneTrust 202310.1.5
+
+# 202310.1.3
+* Adds support for OneTrust 202310.1.3
+
+# 202310.1.0
+* Adds support for OneTrust 202310.1.0
+
+# 202309.1.0
+* Adds support for OneTrust 202309.1.0
+
+# 202308.2.6
+* Adds support for OneTrust 202308.2.6
+
+# 202308.2.0
+* Adds support for OneTrust 202308.2.0
+
+# 202308.1.0
+* Adds support for OneTrust 202308.1.0
+
+# 202307.1.0
+* Adds support for OneTrust 202307.1.0
+
+# 202306.2.0
+* Adds support for OneTrust 202306.2.0
+
+# 202306.1.0
+* Adds support for OneTrust 202306.1.0
+
+# 202305.1.4
+* Adds support for OneTrust 202305.1.4
+
+# 202305.1.0
+* Adds support for OneTrust 202305.1.0
+
+# 202304.1.0
+* Adds support for OneTrust 202304.1.0
+
+# 202303.2.0
+* Adds support for OneTrust 202303.2.0
+
+# 202303.1.0
+* Adds support for OneTrust 202303.1.0
+
+# 202302.1.0
+* Adds support for OneTrust 202302.1.0
+
+# 202301.2.0
+* Adds support for OneTrust 202301.2.0
+
+# 202301.1.0
+* Adds support for OneTrust 202301.1.0
+
+# 202212.1.0
+* Adds support for OneTrust 202212.1.0
+
 # 202211.2.0
 * Adds support for OneTrust 202211.2.0
 
